@@ -3,7 +3,7 @@
 Use this to start new projects with a simple folder structure and some helpfull files for the start
 
 ## Dummy File
-The file names EMPTY is a placeholder to keep the folders for git commits
+The file names **BLANKO** is a placeholder to keep the folders for git commits
 In some directories is a README.md file for brief description of the folder content
 
 ## Folders
@@ -43,13 +43,13 @@ When you will use scripts in Autoload aka Singletons put your scripts in the als
 Give each entities there own folder.
 
 - Entities
- - Player
+  - Player
     - Sound
     - Sprites
     - Animations
     - Scenes
     - ...
-- Enemy
+  - Enemy
     - Sound
     - Sprites
     - Animations
