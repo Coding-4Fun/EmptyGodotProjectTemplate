@@ -26,6 +26,7 @@ In some directories is a README.md file for brief description of the folder cont
   - Store your documents here.
   - Every kind of documentation like Game Design Documents oder programing guidline.
   - Collection for helpful resources like links Video Tutorials
+    - Subfolder CodeSnippets. You can place your snippets here.
 
 ### 4. Example_projects:
   - Put some referenzes or samples here for examining the source
@@ -56,4 +57,5 @@ Give each entities there own folder.
     - Scenes
     - ...
 
-
+### 5.2 Vom automatischen Import ausgeschlossene Ordner.
+In einigen Ordner existiert ein .gdignore. Diese Datei bewirkt das die Engine Dateien nicht automatisch importiert und diese Ordner nicht in der Dateiübersicht im Editor angezeigt wird.
