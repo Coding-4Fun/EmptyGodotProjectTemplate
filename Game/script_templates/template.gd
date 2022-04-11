@@ -65,9 +65,41 @@ extends %BASE%
 #-------------------------------------------------------------------------------
 # built-in virtual _ready method
 #-------------------------------------------------------------------------------
+# Called every time the node enters the scene tree.
+func _enter_tree():
+    pass
+
+# Called when both the node and its children have entered the scene tree.
+func _ready():
+    pass
+
+# Called when the node is about to leave the scene tree, after all its
+children received the _exit_tree() callback.
+func _exit_tree():
+    pass
+#-------------------------------------------------------------------------------
+# built-in Process methods
+#-------------------------------------------------------------------------------
+# Called every frame, as often as possible.
+func _process(delta):
+    pass
+
+# Called every physics frame.
+func _physics_process(delta):
+    pass
+#-------------------------------------------------------------------------------
+# built-in input methods
+#-------------------------------------------------------------------------------
+# Called once for every event.
+func _unhandled_input(event):
+    pass
+
+# Called once for every event, before _unhandled_input(), allowing you to
+# consume some events.
+func _input(event):
+    pass
+#-------------------------------------------------------------------------------
 # remaining built-in virtual methods
-func _ready() -> void:
-	pass
 #-------------------------------------------------------------------------------
 # public methods
 #-------------------------------------------------------------------------------
