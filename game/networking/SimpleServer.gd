@@ -2,13 +2,30 @@ class_name SimpleServer
 
 extends Node
 
+
 # TCP Calls. zuverlässig, geordnet und langsam
 # rpc("function_name", <optional_args>)
 # rpc_id(<peer_id>,"function_name", <optional_args>)
+# rset("variable", value)
+# rset_id(<peer_id>, "variable", value)
 
 # UDP Calls, unzuverlässig, ungeordnet und schnell
 # rpc_unreliable("function_name", <optional_args>)
 # rpc_unreliable_id(<peer_id>, "function_name", <optional_args>)
+# rset_unreliable("variable", value)
+# rset_unreliable_id(<peer_id>, "variable", value)
+
+# Keine weiteren Verbindungen aktzeptieren
+# set_refuse_new_network_connections(bool)
+
+# get_rpc_sender_id ()
+# get_tree().get_network_peer()
+# get_tree().is_network_server()
+
+# remote		func executed only on clients
+# remotesync 	func executed on Server & Client
+# master		func called 
+# puppet		func called from client, executed only on peers, not host
 
 var serverpeer	# NetworkedMultiplayerPeer-Objekt
 var const SERVER_PORT = 7777 setget setServerPort
