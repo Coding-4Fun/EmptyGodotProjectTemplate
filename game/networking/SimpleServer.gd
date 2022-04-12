@@ -33,7 +33,9 @@ func setMaxPlayer(player:int)
 
 func setServerPort(port:int)
 	if port > 0 and port <= 65535
-	SERVER_PORT = port
+		SERVER_PORT = port
+	# else
+		# Error, Port out of Range
 
 
 func _init_server() -> void: 
