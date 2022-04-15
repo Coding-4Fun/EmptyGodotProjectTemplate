@@ -13,6 +13,8 @@ In some directories is a README.md file for brief description of the folder cont
 - Example_Projects
 - Game
 - script_templates
+- Optionale_Addons
+
 
 ### 1. Assets_Raw: 
   - Put your asset collection here, before you decide which one you will use.
@@ -59,3 +61,6 @@ Give each entities there own folder.
 
 ### 5.2 Vom automatischen Import ausgeschlossene Ordner.
 In einigen Ordner existiert ein .gdignore. Diese Datei bewirkt das die Engine Dateien nicht automatisch importiert und diese Ordner nicht in der Dateiübersicht im Editor angezeigt wird.
+
+### Optionale Addons
+Hier können Addons abgelegt werden die für ein Projekt interessant sind. Eine Beschreibung der abgelegten Addons ist in der beigefügten [README](./Optional_Addons/README.md) enthalten.
